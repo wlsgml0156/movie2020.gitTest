@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+.mtable, .container>form>table {
+	margin: 0 auto;
+}
+
+.mtable {
+	width: 725px;
+	padding-left: 15px;
+}
+
+.mtable>tr {
+	padding-bottom: 15px;
+}
+
+.card {
+	width: 220px;
+	height: 334px;
+	text-align: center;
+	margin: 10px;
+	float: left;
+}
+
+.card-header {
+	position: relative;
+}
+
+.card-header>img {
+	width: 220px;
+	height: 314px;
+}
+
+.card-header>span {
+	width: 220px;
+	height: 20px;
+	line-height: 20px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 294px;
+	left: 0px;
+}
+
+.movieForm {
+	width: 725px;
+	
+	margin: 0 auto;
+}
+
+.movieInfoimg {
+	width:301px;
+	margin-left:212px;
+}
+
+.movieForm>div {
+	text-align: left;
+}
+
+.movieForm>div:nth-child(2) {
+	margin-top: 10px;
+}
+
+.btnBox {
+	margin: 20px 0;
+}
+
+.logintable {
+	width: 300px;
+	margin-bottom: 14px;
+	text-align: left;
+}
+
+.review-table {
+	width: 725px;
+	margin: 0 auto;
+}
+
+.review-table-text {
+	text-align: left;
+}
+
+.mydefaul-table {
+	width: 725px;
+	margin: 0 auto;
+}
+
+.review-table-info {
+	border: 1px solid #eee;
+}
+
+.text-right {
+	text-align: right;
+	font-size: 10px;
+}

@@ -1,0 +1,8 @@
+CREATE TABLE reviewBbs(
+bbsno INT(5) AUTO_INCREMENT not null primary key,  
+wname VARCHAR(20) not null  ,          			
+subject VARCHAR(100) not null  ,             	 
+content VARCHAR(2000) not null  ,            	
+readcnt INT(5) default 0 not null ,             
+regdt TIMESTAMP DEFAULT NOW()                      
+)ENGINE=MyISAM DEFAULT CHARSET="euckr";

@@ -1,0 +1,6 @@
+CREATE TABLE MEMBER(
+m_id VARCHAR(20) not null PRIMARY KEY,
+m_pwd VARCHAR(20) not null,
+m_name VARCHAR(20) not null,
+m_email VARCHAR(50) not null
+)ENGINE=MyISAM DEFAULT CHARSET="euckr";

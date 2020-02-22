@@ -1,0 +1,13 @@
+create table movie(
+ititle varchar(50) not null,  
+igenre varchar(50) not null,  
+iforeman varchar(50) not null,
+icast  varchar(100) not null,
+irlsDate varchar(50) not null,
+imonth varchar(50),
+irating  varchar(50) not null,
+icontent VARBINARY(2000) not null,
+poster   varchar(255) not null,
+filesize int default 0 not null,
+imovieno  INT AUTO_INCREMENT PRIMARY KEY
+)ENGINE=MyISAM DEFAULT CHARSET="euckr";
